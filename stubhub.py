@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeoutError
 import re, os, smtplib, ssl
 from pathlib import Path
 
-URL = "https://www.stubhub.com/subtronics-las-vegas-tickets-10-18-2025/event/157758258/?quantity=2&sortDirection=0&sortBy=NEWPRICE"
+URL = "https://www.stubhub.com/subtronics-los-angeles-tickets-12-6-2025/event/158449443/?quantity=2"
 USER_DATA_DIR = str(Path.home() / ".stubhub_playwright_profile")
 PRICE_RX = re.compile(r"^\s*\$\s*([\d,]+(?:\.\d{2})?)\s*$")
 
