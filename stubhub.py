@@ -1,4 +1,4 @@
-# filename: stubhub_read_lowest_price.py
+
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeoutError
 import re, os, smtplib, ssl
 from pathlib import Path
