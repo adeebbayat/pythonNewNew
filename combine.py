@@ -5,7 +5,7 @@ from pathlib import Path
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-URL = "https://www.stubhub.com/subtronics-los-angeles-tickets-12-6-2025/event/158449443/?quantity=2"
+URL = "https://www.stubhub.com/disclosure-berkeley-tickets-9-27-2025/event/158459048/?quantity=1"
 USER_DATA_DIR = str(Path.home() / ".stubhub_playwright_profile")
 PRICE_RX = re.compile(r"^\s*\$\s*([\d,]+(?:\.\d{2})?)\s*$")
 
